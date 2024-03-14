@@ -9,6 +9,7 @@
   import { defineProps, defineEmits } from 'vue';
   import { Todo } from '../types';
   
+  
   const props = defineProps<{
     todo: Todo;
   }>();
