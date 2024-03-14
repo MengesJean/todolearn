@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply py-2 px-4;
+  @apply border;
+  @apply w-full;
+}
+
+.todo-item {
+  @apply py-2 px-4;
+  @apply border-b;
+  @apply w-full;
+  @apply flex items-center justify-between;
+}
+
+.todo-item > * {
+  cursor: pointer;
+}
